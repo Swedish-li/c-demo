@@ -2,8 +2,9 @@
 
 int main()
 {
-    char ch;
-    while (ch = getchar() != '#')
+    int ch;
+    // ctrl + D
+    while ((ch = getchar()) != EOF)
     {
         putchar(ch);
     }
