@@ -3,7 +3,7 @@
 // windows中文乱码
 // -fexec-charset=gbk
 // -finput-charset=utf-8
-int main(void){
+int show(void){
 
     int x = 2888;
     printf("%x\n",x);

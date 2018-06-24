@@ -1,5 +1,8 @@
 #include <stdio.h>
+#include "msg.h"
 
 int main(void){
-    printf("Hello World!\n");
+    printf(HELLO);
+
+    show();
 }
