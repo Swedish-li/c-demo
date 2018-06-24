@@ -12,7 +12,7 @@ INCLUDE += -I./$(INCLUDE_DIR)/
 
 cc = gcc
 target = hello
-obj = hello.o show.o
+obj = hello.o show.o show_bytes.o
 
 ${target}: $(obj)
 	$(cc) $(addprefix $(BUILD_DIR)/,$(obj)) -o $(addprefix $(BIN_DIR)/,$(target))
