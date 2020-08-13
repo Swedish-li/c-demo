@@ -3,6 +3,8 @@ SRC_DIR = src
 BIN_DIR = bin
 BUILD_DIR = build
 
+# Search for .c files in "src" directory; .h files in "include" directory
+# The pattern matching character '%' matches filename without the extension
 vpath %.h include
 vpath %.c src
 vpath %.o build

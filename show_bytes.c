@@ -28,20 +28,20 @@ void show_pointer(void *x)
     show_bytes((byte_pointer)x, sizeof(void *));
 }
 
-void test_show_pointer(int val)
-{
-    int ival = val;
-    float fval = (float)val;
-    int *pval = &ival;
+// void test_show_pointer(int val)
+// {
+//     int ival = val;
+//     float fval = (float)val;
+//     int *pval = &ival;
 
-    show_int(ival);
-    show_float(fval);
-    show_pointer(pval);
-}
+//     show_int(ival);
+//     show_float(fval);
+//     show_pointer(pval);
+// }
 
-int main(void)
-{
+// int main(void)
+// {
 
-    int val = 12345;
-    test_show_pointer(val);
-}
+//     int val = 12345;
+//     test_show_pointer(val);
+// }
