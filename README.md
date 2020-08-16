@@ -1,5 +1,6 @@
-# C 语言
+# 理解计算机系统
 
+![一个典型计算机的硬件组成](./draw.io/computer-system.drawio.svg "一个典型计算机的硬件组成")
 
 ### [调试工具`GDB`][1]
 
@@ -23,6 +24,7 @@
 ## 相关链接
 
 [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html#Top)
+[The GNU C Library](https://www.gnu.org/software/libc/manual/)
 
 
 [1]: https://sourceware.org/gdb/current/onlinedocs/gdb/
